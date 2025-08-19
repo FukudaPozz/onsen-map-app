@@ -24,7 +24,7 @@ function loadSpringWater() {
     bounds.getSouth(), bounds.getWest(),
     bounds.getNorth(), bounds.getEast()
   ].join(",");
-
+  
   fetch(`/api/spring_water?bbox=${bbox}`)
     .then(res => res.json())
     .then(data => {
