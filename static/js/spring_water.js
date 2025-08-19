@@ -16,7 +16,6 @@ let markers = new Map();
 
 // 湧水情報の取得と表示
 function loadSpringWater() {
-  alert("温泉情報を取得する")
   // 地図の現在の表示範囲を取得
   const bounds = map.getBounds();
   // 表示範囲の南西と北東の座標を取得して、bboxパラメータを作成
